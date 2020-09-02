@@ -4,6 +4,7 @@
 
 body {
   background-color: grey;
+  font-family: monospace;
 }
 div {
   background-color: green;
@@ -11,4 +12,6 @@ div {
 .blue-text {
   color: yellow;
   font-size: 30px;
+  font-family: 'Franklin Gothic Medium';
+  font-style: italic;
 }
