@@ -18,4 +18,5 @@ div {
   border-color: green;
   border-width: 3px;
   border-style: dashed;
+  border-radius: 100px;
 }
