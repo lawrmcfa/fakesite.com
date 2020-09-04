@@ -18,5 +18,8 @@ div {
   border-color: green;
   border-width: 3px;
   border-style: dashed;
-  border-radius: 100px;
+  border-radius: 50%;
+}
+#strong-women {
+  background-color: blue;
 }
