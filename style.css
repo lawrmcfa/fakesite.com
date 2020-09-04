@@ -23,3 +23,8 @@ div {
 #strong-women {
   background-color: blue;
 }
+.para-padding {
+  padding: 30px;
+  border-width: 3px;
+  border-style: solid;
+}
