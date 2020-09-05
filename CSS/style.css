@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif, monospace;
+  background-color: powderblue;
+}
+div {
+  background-color: green;
+}
+.blue-text {
+  color: yellow;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium';
+  font-style: italic;
+}
+.smaller-image {
+  width: 200px;
+}
+.thick-green-border {
+  border-color: green;
+  border-width: 3px;
+  border-style: dashed;
+  border-radius: 50%;
+}
+#strong-women {
+  background-color: blue;
+}
+.para-padding {
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  margin-left: 60px;
+  margin-right: 67%;
+  border-width: 3px;
+  border-style: solid;
+}
