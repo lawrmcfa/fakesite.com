@@ -29,11 +29,8 @@ h2 {
   background-color: blue;
 }
 .para-padding {
-  padding: 10px;
-  margin-top: 40px;
-  margin-bottom: 50px;
-  margin-left: 60px;
-  margin-right: 67%;
+  padding: 40px 50px 40px 10px;
+  margin: 40px 67% 50px 60px;
   border-width: 3px;
   border-style: solid;
 }
