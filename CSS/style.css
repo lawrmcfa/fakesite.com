@@ -1,9 +1,14 @@
 body {
   font-family: sans-serif, monospace;
-  background-color: powderblue;
+  background-color: rgb(158, 214, 221);
 }
-div {
-  background-color: green;
+h2 {
+  background-color: white;
+  text-align: center;
+  border-width: 5px;
+  border-color: white;
+  border-style: outset;
+  margin: -15px;
 }
 .blue-text {
   color: yellow;
@@ -31,4 +36,7 @@ div {
   margin-right: 67%;
   border-width: 3px;
   border-style: solid;
+}
+.powderblue {
+  background-color: rgb(158, 214, 221);
 }
