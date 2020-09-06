@@ -29,10 +29,11 @@ h2 {
   background-color: blue;
 }
 .para-padding {
-  padding: 40px 50px 40px 10px;
+  padding: 30px 25px 25px 25px;
   margin: 40px 67% 50px 60px;
   border-width: 3px;
   border-style: solid;
+  text-align: justify;
 }
 .powderblue {
   background-color: rgb(158, 214, 221);
