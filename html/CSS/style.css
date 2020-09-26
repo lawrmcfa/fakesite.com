@@ -38,3 +38,6 @@ h2 {
 .powderblue {
   background-color: rgb(158, 214, 221);
 }
+[type='checkbox'] {
+  margin: 100px 0px 15px 0px;
+}
