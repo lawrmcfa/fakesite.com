@@ -10,6 +10,11 @@ h2 {
   border-style: outset;
   margin: -15px;
 }
+form {
+  padding: 2.5em;
+  border-width: 3px;
+  border-style: solid;
+}
 .blue-text {
   color: yellow;
   font-size: 30px;
