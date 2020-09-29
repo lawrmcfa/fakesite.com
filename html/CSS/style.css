@@ -24,6 +24,12 @@ form {
   font-family: 'Franklin Gothic Medium';
   font-style: italic;
 }
+.pink-text {
+  color: pink;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium';
+  font-style: italic;
+}
 .smaller-image {
   width: 200px;
 }
