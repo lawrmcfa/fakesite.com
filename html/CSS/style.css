@@ -49,6 +49,9 @@ form {
   border-style: solid;
   text-align: justify;
 }
+#orange-text {
+  color: orange;
+}
 .powderblue {
   background-color: rgb(158, 214, 221);
 }
