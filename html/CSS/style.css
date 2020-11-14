@@ -25,7 +25,7 @@ form {
   font-style: italic;
 }
 .pink-text {
-  color: pink;
+  color: pink !important;
   font-size: 30px;
   font-family: 'Franklin Gothic Medium';
   font-style: italic;
