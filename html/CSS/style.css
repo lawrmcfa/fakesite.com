@@ -9,7 +9,7 @@ h2 {
   background-color: white;
   text-align: center;
   border-width: 5px;
-  border-color: white;
+  border-color: #ffffff;
   border-style: outset;
   margin: -15px;
 }
@@ -40,14 +40,15 @@ form {
   border-radius: 50%;
 }
 #strong-women {
-  background-color: blue;
+  background-color: #FFA500;
 }
 .para-padding {
   padding: 30px 25px 25px 25px;
   margin: 40px 67% 50px 60px;
-  border-width: 3px;
+  border-width: 15px;
   border-style: solid;
   text-align: justify;
+  border-color: #000;
 }
 #orange-text {
   color: orange;
