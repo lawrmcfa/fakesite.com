@@ -1,7 +1,13 @@
 body {
     font-family: sans-serif, monospace;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(200, 218, 212);
     border-width: 1px;
     border-style: solid;
-    color: #000;
+    color: green;
+}
+p {
+    text-align: justify;
+    border-width: 3px;
+    border-style: outset;
+    color: black;
 }
