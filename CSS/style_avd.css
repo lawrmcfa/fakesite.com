@@ -10,4 +10,5 @@ p {
     border-width: 3px;
     border-style: outset;
     color: black;
+    width: 50%;
 }
