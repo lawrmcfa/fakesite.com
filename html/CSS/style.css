@@ -1,8 +1,9 @@
 body {
   font-family: sans-serif, monospace;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(158, 214, 221);
   border-width: 1px;
   border-style: solid;
+  color: green;
 }
 h2 {
   background-color: white;
