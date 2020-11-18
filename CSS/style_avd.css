@@ -7,8 +7,13 @@ body {
 }
 p {
     text-align: justify;
+    text-decoration: none;
+    font-weight: bold;
     border-width: 3px;
     border-style: outset;
     color: black;
-    width: 50%;
+    width: 45%;
+}
+h1{
+    text-decoration: underline;
 }
