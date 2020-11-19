@@ -26,6 +26,7 @@ h2 {
     text-align: center;
     background-color: rgba(45, 45, 45, 0.1);
     padding: 10px;
+    text-transform: uppercase;
 }
   hr {
       width: 45%;
