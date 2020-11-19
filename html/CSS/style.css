@@ -5,6 +5,12 @@ body {
   border-style: solid;
   color: green;
 }
+a {
+  color: #000;
+}
+a:hover {
+  color: orangered;
+}
 h2 {
   background-color: white;
   text-align: center;
