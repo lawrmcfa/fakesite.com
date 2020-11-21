@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(220, 236, 238);
+}
+a {
+    color: #000;
+}
+a:hover {
+    color: blue;
+}
+div {
+    position: relative;
+    top: 30px;
+    left: 350px;
+    border-style: solid;
+    border-width: 1px;
+    width: 500px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background-color: rgb(230, 208, 208);
+}
