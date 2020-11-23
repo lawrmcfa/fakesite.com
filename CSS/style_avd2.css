@@ -9,13 +9,30 @@ a:hover {
 }
 h1 {
     position: relative;
+    margin: auto;
     width: 50%;
     background-color: rgb(172, 153, 171);
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
 }
 div {
-    color: #fff;
-}
+    width: 20%;
+    height: 200px;
+    margin-top: 150px;
+  }
+
+  .first {
+    background-color: red;
+    position: absolute;
+    float: left;
+  }
+  .second {
+    background-color: blue;
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    float: left;
+    z-index: 1;
+  }
 #left {
     float: left;
     width: 50%;
