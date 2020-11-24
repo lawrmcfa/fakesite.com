@@ -47,3 +47,10 @@ div {
   width: 50%;
   background: url("https://img.freepik.com/free-photo/dirty-pattern-paint-room-block_1203-5709.jpg?size=626&ext=jpg")
 }
+img {
+  position: relative;
+}
+
+img:hover {
+  transform: scale(1.5);
+}
