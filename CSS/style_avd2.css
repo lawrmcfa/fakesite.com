@@ -3,6 +3,7 @@ body {
 }
 a {
     color: #000;
+    background-color: hsl(310, 3%, 70%);
 }
 a:hover {
     color: blue;
