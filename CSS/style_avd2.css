@@ -32,6 +32,7 @@ div {
     background-color: red;
     position: absolute;
     float: left;
+    transform: skewX(25deg);
   }
   .second {
     background-color: blue;
