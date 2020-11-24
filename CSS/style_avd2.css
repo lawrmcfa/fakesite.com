@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(220, 236, 238);
+    background-color: linear-gradient(35deg, #2e6363, #FFCCCC, rgb(117, 36, 36));
 }
 a {
     color: #000;
@@ -19,6 +19,13 @@ div {
     width: 20%;
     height: 200px;
     margin-top: 150px;
+    background: repeating-linear-gradient(
+      45deg,
+      yellow 0px,
+      red 40px,
+      black 40px,
+      black 80px
+    );
   }
 
   .first {
