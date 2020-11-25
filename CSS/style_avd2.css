@@ -78,3 +78,29 @@ aside, section {
     left: 100px;
     background-color: blue;
 }
+.ball {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 5px;
+    border-radius: 50%;
+    background: red;
+}
+#roll {
+    animation-name: rollin;
+    animation-duration: 4s;
+}
+@keyframes rollin {
+    0% {
+        background-color: red;
+    }
+    25% {
+        background-color: orange;
+    }
+    75% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: transparent;
+    }
+}
