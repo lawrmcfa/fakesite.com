@@ -15,7 +15,7 @@ h1 {
     background-color: rgb(172, 153, 171);
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
 }
-div {
+.box {
     width: 20%;
     height: 200px;
     margin-top: 150px;
@@ -33,11 +33,14 @@ div {
     position: absolute;
     float: left;
     transform: skewX(25deg);
+    left: 100px;
+    top: 50px;
   }
   .second {
     background-color: blue;
     position: absolute;
-    left: 40px;
+    transform: skewX(-25deg);
+    left: 110px;
     top: 50px;
     float: left;
     z-index: 1;
@@ -55,4 +58,23 @@ aside, section {
     border-width: 2px;
     padding: 20px;
     background-color: #CCC;
+}
+.kbox {
+    position: absolute;
+    bottom: 25px;
+    left: 200px;
+    border-style: solid;
+    border-width: 1px;
+    width: 250px;
+    height: 150px;
+    background-color: cyan;
+}
+.kbox::after {
+    position: absolute;
+    content: "";
+    width: 250px;
+    height: 150px;
+    bottom: 50px;
+    left: 100px;
+    background-color: blue;
 }
