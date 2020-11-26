@@ -52,5 +52,6 @@ img {
 }
 
 img:hover {
+  transition-duration: .5s;
   transform: scale(1.5);
 }
