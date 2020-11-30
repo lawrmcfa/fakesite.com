@@ -1,21 +1,72 @@
-#box-container {
-    height: 500px;
+#container {
+    width: 1000px; /* increase or decrease to play with flex-shrink and flex-grow */
+    height:400px;
+    background-color: #4524fb;
+    margin: 80px auto;
+    border-radius: 8px;
     display: flex;
-    justify-content: space-evenly;
-    border-style: solid;
-    border-width: 0.5px;
+    /* flex-direction: row; */
+    flex-wrap: nowrap;
+    /* flex-flow: row wrap; */
+    /*justify-content: center;
+    align-items: center; */
 }
-
-#box-1 {
-    background-color: dodgerblue;
-    border-style: solid;
-    border-width: 0.5px;
+#imgcontainer {
+    background-image: linear-gradient(to bottom right, #00fadf, #00ecbc);
+    width: 400px;
     height: 400px;
-    width: auto;
+    margin: 0 auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#box-2 {
-    background-color: orangered;
-    border-style: solid;
-    border-width: 0.5px;
-    height: 400px;
+.item {
+    flex-basis: 500px; /* limited by max-width and min-width */
+    /* max-width: 50px; */
+    /* min-width: 500px; */
+    /* width: 150px; */
+    height: 80px;
+    /*padding: 20px;
+    margin: 5px; */
+    text-align: center;
+    box-shadow: 1px 2px 5px black;
+    border-radius: 8px;
+    color: #000;
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+    background-color: #15F831;
+    font-weight: bold;
+    cursor: pointer;
+    /* flex: [grow] [shrink] [basis] */
+}
+.item:hover {
+    transition: all 0.1s linear;
+    color: #FFF;
+}
+.one {
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 2;
+}
+.two {
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 2;
+}
+.three {
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 2;
+    align-self: flex-end;
+}
+.four {
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 2;
+}
+img {
+    width: 150px;
+    height: 250px;
 }
