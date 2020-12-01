@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif, monospace;
+    background-color: rgb(200, 218, 212);
+    color: green;
+}
+p {
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    border-width: 3px;
+    border-style: outset;
+    color: black;
+    width: 45%;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgba(45, 45, 45, 0.1);
+    width: 45%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+h2 {
+    text-align: center;
+    background-color: rgba(45, 45, 45, 0.1);
+    padding: 10px;
+    text-transform: uppercase;
+}
+  hr {
+      width: 45%;
+  }
+  .fullCard {
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+  }
+  .cardContent {
+    padding: 10px;
+  }
+  .cardText {
+    margin-bottom: 30px;
+  }
+  #thumbnail {box-shadow: 0 10px 20px rgba(0,0,0,0.49)}
