@@ -1,0 +1,45 @@
+
+body {
+    background-color: black;
+}
+#container {
+    width: 95vw;
+    height: 60vw;
+    margin: 0 auto;
+    background-color: green;
+    outline: 8px solid #4834D4;
+    display: grid;
+    /* grid-template-columns: [col-start] 1fr [col-2] 1fr [col-3] 1fr [col-end]; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 50px;
+    grid-auto-columns: ;
+    grid-auto-rows: 50px;
+    grid-auto-flow: dense;
+}
+.item {
+    background: skyblue;
+    border-width: .5px;
+    border-style: solid;
+    border-radius: 8px;
+}
+.one {
+
+}
+.two {
+
+}
+.three {
+
+}
+.four {
+
+}
+.five {
+
+}
+.six {
+
+}
+.seven {
+    /* grid-column: 10/11; */
+}
