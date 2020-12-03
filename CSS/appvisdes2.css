@@ -1,5 +1,5 @@
 body {
-    background-color:  
+    background: linear-gradient(35deg, #ccffff, #ffcccc)
 }
 a {
     color: #000;
@@ -37,7 +37,7 @@ h1 {
     top: 50px;
   }
   .second {
-    background-color: blue;
+    background-color: red;
     position: absolute;
     transform: skewX(-25deg);
     left: 110px;
