@@ -1,0 +1,33 @@
+#container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(35deg, #ccffff, #ffcccc);
+}
+#main {
+  background-color: whitesmoke;
+}
+#title {
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  text-align: center;
+}
+#img-div {
+  background-color: beige;
+  margin: 10px;
+  align-self: center;
+  }
+#image {
+    
+}
+#timeline {
+  background-color: grey;
+}
+#quote {
+  background-color: beige;
+  font-size: 10px;
+  font-style: italic;
+  text-align: center;
+}
