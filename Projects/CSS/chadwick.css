@@ -33,6 +33,7 @@
 }
 #quote {
   width: 80vw;
+  height: auto;
   align-self: flex-start;
   font-size: 15px;
   line-height: 1.6px;
