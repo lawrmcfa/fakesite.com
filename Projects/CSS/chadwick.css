@@ -29,6 +29,9 @@
   margin: auto;
 }
 #timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 80vw;
   align-self: center;
   min-width: 1000px;
@@ -36,6 +39,8 @@
   /* border: 1px solid black; */
 }
 #quote {
+  margin-left: 4em;
+  margin-right: 4em;
   width: auto;
   height: auto;
   align-self: flex-start;
@@ -44,12 +49,13 @@
   /* border: 1px solid black; */
 }
 #footer {
+  margin-left: 3em;
   padding: 1em;
-  align-self: center;
-  text-align: center;
+  align-self: flex-start;
+  text-align: left;
 }
 ul {
-  padding: 1em 4em 1em 4em;
+  padding: 0em 4em 1em 4em;
   align-items: center;
 }
 li {
