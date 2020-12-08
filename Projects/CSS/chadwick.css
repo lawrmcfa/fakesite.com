@@ -18,6 +18,8 @@
 #img-div {
   width: 80%;
   margin: auto;
+  min-width: 1000px;
+  max-width: 1250px;
   /* border: 1px solid black; */
   }
 #img-div img {
@@ -29,16 +31,16 @@
 #timeline {
   width: 80vw;
   align-self: center;
+  min-width: 1000px;
+  max-width: 1250px;
   /* border: 1px solid black; */
 }
 #quote {
-  width: 80vw;
+  width: auto;
   height: auto;
   align-self: flex-start;
   font-size: 15px;
-  line-height: 1.6px;
   font-style: italic;
-  text-align: center;
   /* border: 1px solid black; */
 }
 #footer {
