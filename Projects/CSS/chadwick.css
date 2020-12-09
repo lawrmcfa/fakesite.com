@@ -22,13 +22,24 @@
   max-width: 1250px;
   /* border: 1px solid black; */
   }
-#img-div img {
+#image {
   display: block;
+  max-width: 807px;
+  flex-shrink: 1;
   width: auto;
   height: auto;
   margin: auto;
 }
-#timeline {
+#img-caption {
+  font-size: 19px;
+}
+#tribute-link {
+  font-family: aerial;
+}
+#tibute-info {
+  font-family: aerial;
+}
+#tribute-info {
   display: flex;
   flex-direction: column;
   align-items: center;
