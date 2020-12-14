@@ -1,15 +1,24 @@
 #container {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 500px;
     background-color: #c9a239;
-    text-align: center;
+    border: 2px solid black;
 }
 #title {
-
+    border: .1px solid black;
+    text-align: center;
+    width: 80%;
 }
 #description {
-
+    border: .1px solid black;
+    text-align: center;
+    width: 80%;
 }
 #survey-form {
-
+    border: .1px solid black;
+    width: 80%;
 }
 #name {
 
