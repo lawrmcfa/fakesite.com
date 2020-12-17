@@ -59,7 +59,7 @@
     order: 0;
     flex-grow: 0;
     flex-shrink: 2;
-    align-self: flex-end;
+    align-self: center;
 }
 .four {
     order: 0;

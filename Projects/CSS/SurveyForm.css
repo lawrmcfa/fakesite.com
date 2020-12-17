@@ -10,15 +10,24 @@
     border: .1px solid black;
     text-align: center;
     width: 80%;
+    align-self: center;
 }
 #description {
     border: .1px solid black;
     text-align: center;
     width: 80%;
+    align-self: center;
 }
 #survey-form {
+    display: flex;
+    flex-direction: column;
     border: .1px solid black;
+    margin: 10px;
     width: 80%;
+    align-self: center;
+}
+#survey-form > input {
+    flex: 4;
 }
 #name {
 
