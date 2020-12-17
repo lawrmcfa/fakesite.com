@@ -1,33 +1,21 @@
 #container {
     display: flex;
+    margin: 0;
     flex-direction: column;
-    width: 1000px;
-    height: 500px;
     background-color: #c9a239;
     border: 2px solid black;
 }
 #title {
-    border: .1px solid black;
-    text-align: center;
-    width: 80%;
-    align-self: center;
 }
 #description {
-    border: .1px solid black;
-    text-align: center;
-    width: 80%;
-    align-self: center;
 }
 #survey-form {
-    display: flex;
-    flex-direction: column;
-    border: .1px solid black;
-    margin: 10px;
-    width: 80%;
-    align-self: center;
 }
-#survey-form > input {
-    flex: 4;
+#survey-form2 {
+}
+#survey-form input {
+}
+#survey-form label {
 }
 #name {
 
