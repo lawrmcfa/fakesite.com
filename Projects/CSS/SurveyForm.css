@@ -9,47 +9,74 @@
     width: 55%;
     flex-direction: column;
     border: .5px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;;
+    background-color: #a7c0e8;
 }
 #title {
     border: 1px solid black;
-    align-self: center;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    margin: auto;
+    padding: 0px;
     text-align: center;
+    width: 55%;
+    font-size: 1.2rem;
 }
 #description {
 }
+
 #survey-form {
+    padding: 10px;
+    margin: 10px 50px 10px 50px;
     display: flex;
+    font-size: 1.2rem;
     flex-direction: column;
-    border: 1px solid black;
 }
+
 #survey-form2 {
+    padding: 10px;
+    margin: 10px 50px 10px 50px;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
 }
-#survey-form input {
+
+#survey-form2 input {
+    height: 150px;
+}
+/*#survey-form input {
     flex: 1;
-}
+}*/
+
 #survey-form label {
 }
+
 #name {
 
 }
+
 #email {
 
 }
+
 #number {
 
 }
+
 #name-label {
 
 }
+
 #email-label {
 
 }
+
 #number-label {
 
 }
+
 #dropdown {
 
 }
