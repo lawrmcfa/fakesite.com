@@ -14,18 +14,13 @@
     background-color: #a7c0e8;
 }
 #title {
-    border: 1px solid black;
-    top: 0;
-    right: 0;
-    bottom: auto;
-    left: 0;
-    margin: auto;
-    padding: 0px;
+    /* border: 1px solid black; */
     text-align: center;
-    width: 55%;
-    font-size: 1.2rem;
+    font-size: 24px;
 }
 #description {
+    text-align: center;
+    font-size: 20px;
 }
 
 #survey-form {
@@ -34,18 +29,30 @@
     display: flex;
     font-size: 1.2rem;
     flex-direction: column;
+    justify-content: space-between;
 }
 
-#survey-form2 {
-    padding: 10px;
-    margin: 10px 50px 10px 50px;
+#survey-form div {
     display: flex;
     flex-direction: column;
 }
 
-#survey-form2 input {
+#dropdown {
+    font-size: 1.2rem;
+    height: 35px;
+    radius: 4px;
+  }
+
+/* #survey-form2 {
+    padding: 10px;
+    margin: 10px 50px 10px 50px;
+    display: flex;
+    flex-direction: column;
+} */
+
+/* #survey-form2 input {
     height: 150px;
-}
+} */
 /*#survey-form input {
     flex: 1;
 }*/
@@ -54,32 +61,36 @@
 }
 
 #name {
-
+    font-size: 1.2rem;
 }
 
 #email {
-
+    font-size: 1.2rem;
 }
 
 #number {
-
+    font-size: 1.2rem;
 }
 
 #name-label {
-
+    font-size: 1.2rem;
 }
 
 #email-label {
-
+    font-size: 1.2rem;
+    margin-top: 10px;
 }
 
 #number-label {
-
+    font-size: 1.2rem;
+    margin-top: 10px;
 }
 
 #dropdown {
-
+    font-size: 1.2rem;
 }
 #submit {
-
+    font-size: 1.2rem;
+    height: 30px;
+    margin-top: 25px;
 }
