@@ -1,0 +1,118 @@
+#parent {
+    background-color: yellow;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    position: relative;
+}
+
+.red1 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.blue1 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 200px;
+    bottom: 50px;
+}
+
+.green1 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+.red2 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.blue2 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 200px;
+    bottom: 50px;
+}
+
+.green2 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+.red3 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.blue3 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+.green3 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+.red4 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.blue4 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    top: 500px;
+}
+
+.green4 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+.red5 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 50;
+}
+
+.blue5 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.green5 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
