@@ -1,57 +1,58 @@
+
 body {
-  font-family: sans-serif, monospace;
-  background: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png");
-}
-h2 {
-  background: url("https://i1.wp.com/penthousemagazine.com/wp-content/uploads/sites/7/2018/08/sloanHarper_04.jpg?ssl=1");
-  text-align: center;
-  border-width: 5px;
-  border-color: white;
-  border-style: outset;
-  margin: -15px;
-}
-.blue-text {
-  color: rgb(255, 136, 0);
-  font-size: 30px;
-  font-family: 'Franklin Gothic Medium';
-  font-style: italic;
-}
-.smaller-image {
-  width: 200px;
-}
-.thick-green-border {
-  border-color: green;
-  border-width: 3px;
-  border-style: dashed;
-  border-radius: 50%;
-}
-#strong-women {
-  background-color: blue;
-}
-.para-padding {
-  padding: 30px 25px 50px 50px;
-  margin: 40px 67% 50px 60px;
-  border-width: 3px;
-  border-style: solid;
-  text-align: justify;
-}
-.powderblue {
-  background-color: rgb(158, 214, 221);
-}
-div {
-  position: relative;
-  top: 17px;
-  border-radius: 20px;
-  border-style: solid;
-  border-width: 1px;
-  width: 50%;
-  background: url("https://img.freepik.com/free-photo/dirty-pattern-paint-room-block_1203-5709.jpg?size=626&ext=jpg")
-}
-img {
-  position: relative;
+  margin: 0px;
 }
 
-img:hover {
-  transition-duration: .5s;
-  transform: scale(1.5);
+#main {
+  border-radius: 2px;
+  border: 1px solid;
+  background: paleturquoise;
+}
+
+#links {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+#nav-bar {
+  /* display: flex; */
+  background: pink;
+  font-family: arial;
+  justify-content: space-around;
+  font-size: 14px;
+}
+.nav-left {
+  background: rgb(116, 26, 41);
+  margin: 2px;
+  flex: 1;
+}
+.nav-center {
+  font-size: 24px;
+  margin: 2px;
+  text-align: center;
+  background: lightcyan;
+  flex: 3;
+}
+
+.nav-right {
+  background: lightgreen;
+  margin: 2px;
+  flex: 1;
+}
+
+.nav-right > ul {
+  /* display: flex; */
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+#strong-women {
+  text-align: center;
 }
