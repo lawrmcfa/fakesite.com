@@ -4,14 +4,20 @@ body {
 }
 
 #main {
+  display: flex;
   border-radius: 2px;
   border: 1px solid;
   background: paleturquoise;
 }
 
-#links {
+.links {
   display: flex;
   flex-direction: column;
+  width: 33.333%;
+}
+
+.pics {
+  width: 33.333%;
 }
 
 img {
@@ -55,4 +61,13 @@ img {
 
 #strong-women {
   text-align: center;
+}
+
+@media (min-width: 412px) { 
+    #nav-bar {
+      display: flex;
+    }
+    .nav-right > ul {
+      display: flex;
+    }
 }
